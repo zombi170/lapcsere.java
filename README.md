@@ -10,7 +10,7 @@ A lapokat számok (1-99), a kereteket betűk (A,B és C) jelölik.
 
 ## Bemenet (standard input, stdin)
 Egyetlen sorban a lapokra történő hivatkozások egymástól vesszővel elválasztva. Például:
-```java bemenet
+```
 1,2,3,-1,5,-1
 ```
 A negatív számok írási műveleteket jeleznek a megadott lapon; ekkor a keretek "dirty" jelzést kapnak (ez nem minden algoritmus esetén releváns információ, de a bemeneten előfordulhat).
@@ -29,7 +29,7 @@ Ha egy memóriafoglalás nem teljesíthető (nincs szabad keret és egyetlen ker
 
 A program írja ki az algoritmus szerinti memóriafoglalásokat és a laphibák számát!
 Pl. a fenti bemenetre adott válasz:
-```java kimenet
+```
 ABC-AB
 5
 ```
